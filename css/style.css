@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#div01 {
+
+    cursor: url(/assets/corazonNaranja.png), pointer;
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*cursor: url("https://1.bp.blogspot.com/-NmbnDADABUE/XSfhUk_X2yI/AAAAAAAAFFw/5Tp7zt_8erg2AJ-aQ1VhYdH_l4nTReY7wCLcBGAs/s1600/cursor.png"), default;
